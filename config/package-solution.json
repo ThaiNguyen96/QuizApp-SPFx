@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "quizz-app-client-side-solution",
+    "id": "ac6506e7-bb3b-49f3-8f4f-921608d945c2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "quizz-app description"
+      },
+      "longDescription": {
+        "default": "quizz-app description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "quizz-app Feature",
+        "description": "The feature that activates elements of the quizz-app solution.",
+        "id": "3da3cded-ada5-48c4-9a3b-f8fd0d1fc768",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/quizz-app.sppkg"
+  }
+}

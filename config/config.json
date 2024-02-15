@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quizz-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quizzApp/QuizzAppWebPart.js",
+          "manifest": "./src/webparts/quizzApp/QuizzAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuizzAppWebPartStrings": "lib/webparts/quizzApp/loc/{locale}.js"
+  }
+}
